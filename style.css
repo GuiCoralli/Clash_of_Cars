@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    font: size 62.5%;
+    
+    --hue:0;
+    --color-base-white: hsl(0, 0%, 100%);
+    --color-base-gray-300: hsl(0, 0%, 85%);
+    --color-base-gray-600: hsla(0, 0%, 70%, 0.903);
+    --color-base-blue2: hsl(240, 79%, 43%);
+    --color-base-blue: hsl(195, 46%, 40%);
+    --color-black-dark: hsl(0, 0%, 0%);
+}
+
+body {
+    background: var(--color-base-blue);
+}
+
+input {
+    color: var(--color-base-white);
+}
+
+html, 
+body,
+input
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
+.input-wrapper input::placeholder {/*caixa do texto "Pesquise seu carro favorito"*/
+    color: var(--color-base-blue);
+    opacity: 0.56;
+}
+
+.input-wrapper label {/*caixa de trás do "Pesquise seu carro favorito */
+    width: 1px;
+    height: 1px;
+    overflow: hidden; 
+    position: absolute;
+}
+
+.input-wrapper input {/*caixa de dentro do "Pesquise seu carro favorito*/
+    width: 22.0rem;
+    height: 3.0rem;
+
+    display: flex;
+
+    padding: 1.2rem 1.4rem 1.2rem 1.4rem;
+    align-items: center;
+
+    gap: 1.2rem;
+
+    background: var(--color-base-white);
+
+    border-radius: .4rem;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+#app > header {
+    width: 100%;
+    display: flex;
+        
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-inline: 2rem;
+    padding-block: 1rem;
+
+    background-color: var(--color-black-dark);
+}
+
+
+#app > header > form > .input-wrapper {
+    position: relative;
+  
+    & > label {
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+  
+      opacity: 0;
+    }
+}
+
+#app > header > form > .input-wrapper > input {
+    background-color: transparent;
+    border: 1px solid var(--color-base-gray-300);
+    &:focus {
+      outline: 1px solid var(--color-base-white);
+    }
+}
+
+#avatar {/*Estilo para figura no canto superior direito */
+   width: 4rem;
+   height: 4rem;
+
+   object-fit: cover;
+   border-radius: 99.9rem;
+}
+
+.car { /*Estilo para logo do carro no canto superior esquerdo */
+    width: 6.5em;
+    height: 3.5rem;
+}
+
+.TwoCars {
+    width:100%;
+    height: 41.5rem;
+}
+
+
+main { /*Pagina do primeiro texto*/
+    padding: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+
+    background-color: var(--color-base-blue);
+}
+
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.paragraph {
+    text-align: start;
+}
+
+
+.article-list {/* Estilo para a lista de artigos */
+    display: grid;
+    gap: 1rem;
+}
+
+
+/* Estilo para cada artigo */
+.article {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 1rem;
+    align-items: center;
+}
+
+/* Ajustes para as imagens dos artigos relacionados */
+.article img {
+    width: 151.rem;
+    height: 8.4rem;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+    padding-inline: 2rem;
+}
+
+aside > h2 {
+    font-size: 2rem;
+}
+aside > figure {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2rem;
+}
+
+
+a {/*estilo para os links de texto*/
+    text-decoration: none;
+}
+
+a:hover{ /*estilo para os links de texto da seta do mouse*/
+    color: var(--color-base-blue);
+    color: var(--color-base-blue2);
+}
+  
+p { /* texto do Main*/
+    margin: 2rem 0rem 4.0rem 2rem;
+    
+    justify-content: center;
+    
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+       
+    gap: 1.6rem;   
+}
+
+h1 {/*Títulos do Main*/
+    margin: 1.0rem 0 0 2rem;
+    
+    padding-bottom: 1.8rem;
+    
+    text-align: start;
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-style: italic;
+    
+    gap: 2rem;
+
+}
+
+h2 {/*Artigos relacionados*/
+    margin: 5rem 0 0rem;
+    margin-bottom: 4rem;      
+    
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3 {/* Títulos dos Artigos relacionados*/
+    margin-left: 2rem;
+
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;      
+}
+
+img { /*imagens dos artigos relacionados*/
+    
+    
+    height: 5.4rem;
+    margin-bottom: 1rem;
+              
+    border-radius: 1.0rem;
+    object-fit: cover;
+    align-items:center ;        
+    gap: 2.2rem; 
+}
+
+footer { /* Estilo para o rodapé */
+    height: 6.0rem;
+
+    text-align: center;
+
+    margin-left: 2rem;
+    padding: 1.2rem 4rem;
+
+    
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+
+    color: var(--color-base-white);
+    background: var(--color-black-dark);
+
+    border-radius: 1.0rem;
+    gap: 1rem;
+}
+
+footer > p { /*caixa do texto do footer*/
+    color: var(--color-base-blue);
+    font-weight: 400;
+    font-size: 1.4rem;    
+}
+
+/* Adicione uma media query para telas menores */
+@media (max-width: 768px) {
+    :root {
+        font-size: 50%; /* Reduza um pouco o tamanho da fonte em telas menores */
+        /*border: 1px solid red;*/
+    }
+    main {
+        padding: 1rem; /* Espaçamento interno menor */
+    }
+
+}
+
