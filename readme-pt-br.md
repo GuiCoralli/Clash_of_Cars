@@ -18,7 +18,7 @@ adquiridos durante as aulas do curso da Rocketseat do Stage 03 no Explorer.
 
 ## 📜 Sobre:
 
-Criação de um blog de carros com informações ecomparações entre Muscler Cars e Sports Cars.
+Criação de um blog de carros com informações e comparações entre Muscler Cars e Sports Cars.
 
 ## 🧠 Aprendizado:
 
