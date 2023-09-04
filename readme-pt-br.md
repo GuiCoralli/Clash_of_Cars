@@ -1,5 +1,5 @@
-
-![PROJETO BLOGCARROS]()
+# CLASH OF CARS
+ 
 
  ## Tradução 
  <p align="center">
@@ -24,22 +24,22 @@ A criação deste projeto me desafiou a entender e fixar os conteúdos aprendido
 
 ## 1 - O que eu aprendi?
 
-Alguns conceitos fundamentais como
-- Mobile First: Desing responsivo em telas menores para depois ajustar para uma versão desktop;
-- Unidade de medida flexível;
-- Grid;
-- Variáveis no CSS;
-- Cores HSL;
-- Animações e transições simples.
-- tag âncora <a> - Responsável por vincular outros documentos que o HTML possui, links internos e externos.
-- placeholder - Atributo HTML com um espaço reservado, que auxiliar o usuário no preenchimento de formulários.
+Alguns conceitos fundamentais como:
+* Mobile First: Desing responsivo em telas menores para depois ajustar para uma versão desktop;
+* Unidade de medida flexível;
+* Grid;
+* Variáveis no CSS;
+* Cores HSL;
+* Animações e transições simples.
+* tag âncora <a> - Responsável por vincular outros documentos que o HTML possui, links internos e externos.
+* placeholder - Atributo HTML com um espaço reservado, que auxiliar o usuário no preenchimento de formulários.
 
 ## 1.1 - Construção da Estrutura HTML com:
 
- - <header></header>
- - <main></main>
- - <aside></aside>
- - <footer></footer>
+ * header
+ * main
+ * aside
+ * footer
 
 ## 2- Como apliquei?
 
