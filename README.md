@@ -1,4 +1,4 @@
-
+## CLASH OF CARS 
 
 
  ## Tradução 
@@ -27,21 +27,21 @@ The creation of this project challenged me to understand and retain the contents
 
 Some key concepts like:
 
-- Mobile First: Responsive design on smaller screens to later adjust to a desktop version;
-- Flexible measuring unit;
-- Grid;
-- Variables in CSS;
-- HSL colors;
-- Simple animations and transitions.
-- anchor tag <a> - Responsible for linking other documents that the HTML has, internal and external links.
-- placeholder - HTML attribute with a placeholder, which helps the user to fill in forms.
+* Mobile First: Responsive design on smaller screens to later adjust to a desktop version;
+* Flexible measuring unit;
+* Grid;
+* Variables in CSS;
+* HSL colors;
+* Simple animations and transitions.
+* anchor tag <a> - Responsible for linking other documents that the HTML has, internal and external links.
+* placeholder - HTML attribute with a placeholder, which helps the user to fill in forms.
 
 ## 1.1 - Building the HTML Structure with:
 
- - <header></header>
- - <main></main>
- - <aside></aside>
- - <footer></footer>
+ * header
+ * main
+ * aside
+ * footer
 
 ## 2- How did I apply?
 
