@@ -20,15 +20,30 @@ Criação do blog: Clash of Cars, com informações e comparações entre os tip
 
 ## 🧠 Aprendizado:
 
-A criação deste projeto me desafiou a entender e fixar os conteúdos aprendidos no Stage 03 - Explorer na plataforma de ensino da Rocketseat, tais como:
+A criação deste projeto me desafiou a entender e fixar os conteúdos aprendidos no Stage 03 - Explorer na plataforma de ensino da Rocketseat.
 
 ## 1 - O que eu aprendi?
 
-Alguns conceitos fundamentais do ...
+Alguns conceitos fundamentais como
+- Mobile First: Desing responsivo em telas menores para depois ajustar para uma versão desktop;
+- Unidade de medida flexível;
+- Grid;
+- Variáveis no CSS;
+- Cores HSL;
+- Animações e transições simples.
+- tag âncora <a> - Responsável por vincular outros documentos que o HTML possui, links internos e externos.
+- placeholder - Atributo HTML com um espaço reservado, que auxiliar o usuário no preenchimento de formulários.
+
+## 1.1 - Construção da Estrutura HTML com:
+
+ - <header></header>
+ - <main></main>
+ - <aside></aside>
+ - <footer></footer>
 
 ## 2- Como apliquei?
 
-Criado de forma prática através de uma estrutura básica em HTML e um estilo em CSS, fixando os conceitos principais  que foram aplicados em uma página WEB. 
+Criado de forma prática através de uma estrutura básica em HTML e um estilo em CSS, fixando os conceitos principais que foram aplicados em uma página WEB. 
 
 
 ## 🚀 Tecnologias
