@@ -1,5 +1,5 @@
 
-![PROJETO GIFFORFIFA]()
+![PROJETO BLOGCARROS]()
 
  ## Tradução 
  <p align="center">
@@ -12,17 +12,15 @@
 ##
 
 ## 💻 Projeto
-
-Esse projeto foi desenvoldido como forma de fixar os conhecimentos
-adquiridos durante as aulas do curso da Rocketseat do Stage 03 no Explorer.
+  * Home page de Blog de carros, chamada Clash of Cars.
 
 ## 📜 Sobre:
 
-Criação de um blog de carros com informações e comparações entre Muscler Cars e Sports Cars.
+Criação do blog: Clash of Cars, com informações e comparações entre os tipos de carros Muscler Cars e Sports Cars.
 
 ## 🧠 Aprendizado:
 
-Com a criação deste projeto, de forma independente, pude me desafiar e assim fixar os conteúdos aprendidos no Stage 03 - Explorer na plataforma de ensino da Rocketseat.
+A criação deste projeto me desafiou a entender e fixar os conteúdos aprendidos no Stage 03 - Explorer na plataforma de ensino da Rocketseat, tais como:
 
 ## 1 - O que eu aprendi?
 
@@ -30,7 +28,7 @@ Alguns conceitos fundamentais do ...
 
 ## 2- Como apliquei?
 
-Criado de forma prática através de uma estrutura básica em HTML e um estilo em CSS, fixando os conceitos principais do CSS GRID que foram aplicados em uma página WEB. 
+Criado de forma prática através de uma estrutura básica em HTML e um estilo em CSS, fixando os conceitos principais  que foram aplicados em uma página WEB. 
 
 
 ## 🚀 Tecnologias
