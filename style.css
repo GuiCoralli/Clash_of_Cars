@@ -201,6 +201,8 @@ p { /* texto do Main*/
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
+
+    color: var(--color-base-white);
        
     gap: 1.6rem;   
 }
@@ -209,6 +211,8 @@ h1 {/*Títulos do Main*/
     margin: 1.0rem 0 0 2rem;
     
     padding-bottom: 1.8rem;
+
+    color: var(--color-base-white);
     
     text-align: start;
     font-size: 2.4rem;
@@ -221,7 +225,9 @@ h1 {/*Títulos do Main*/
 
 h2 {/*Artigos relacionados*/
     margin: 5rem 0 0rem;
-    margin-bottom: 4rem;      
+    margin-bottom: 4rem;  
+    
+    color: var(--color-base-white);
     
     font-size: 2.2rem;
     font-style: normal;
@@ -230,6 +236,8 @@ h2 {/*Artigos relacionados*/
 
 h3 {/* Títulos dos Artigos relacionados*/
     margin-left: 2rem;
+
+    color: var(--color-base-white);
 
     font-size: 2rem;
     font-style: normal;
