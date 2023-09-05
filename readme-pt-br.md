@@ -1,15 +1,28 @@
-# CLASH OF CARS
- 
+<h1 align="center">  CLASH OF CARS </h1> 
+
+<p align="center">
+ Design exclusivo e independente, feito pela GuiCoralli para consolidar o aprendizado de tecnologias de aplicações WEB.
+ </p>
+
+ <p align="center">
+  <a href="#-Translation">Tradução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-About">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Install">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
 
  ## Tradução 
  <p align="center">
    ·
-  <a href=""> Português
+  <a href="https://github.com/GuiCoralli/Clash_of_Cars/blob/main/readme-pt-br.md"> Português
   ·
-  <a href="> English
+  <a href="https://github.com/GuiCoralli/Clash_of_Cars/blob/main/README.md"> English
   </a>
 
 ##
+
 
 ## 💻 Projeto
   * Home page de Blog de carros, chamada Clash of Cars.
@@ -53,6 +66,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
  </div>
+ 
+
+## 💾 Install
+
+1) Instale o vscode e as seguintes extensões index.html e style.css
+2) Clone o repositório do terminal vscode
+3) Use o servidor live para lançar o projeto em um servidor local
  
  ##
  
