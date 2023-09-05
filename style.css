@@ -33,7 +33,7 @@ p {
 }
 
 .input-wrapper input::placeholder {/*caixa do texto "Pesquise seu carro favorito"*/
-    color: var(--color-base-blue);
+    color: var(--color-base-white);
     opacity: 0.56;
 }
 
