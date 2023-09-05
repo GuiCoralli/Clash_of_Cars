@@ -12,7 +12,7 @@
     --color-base-white: hsl(0, 0%, 100%);
     --color-base-gray-300: hsl(0, 0%, 85%);
     --color-base-gray-600: hsla(0, 0%, 70%, 0.903);
-    --color-base-blue2: hsl(240, 79%, 43%);
+    --color-base-blue2: hsl(240, 93%, 27%);
     --color-base-blue: hsl(195, 46%, 40%);
     --color-black-dark: hsl(0, 0%, 0%);
 }
@@ -186,11 +186,11 @@ aside > figure {
 
 a {/*estilo para os links de texto*/
     text-decoration: none;
+    color: var(--color-base-blue2);
 }
 
 a:hover{ /*estilo para os links de texto da seta do mouse*/
-    color: var(--color-base-blue);
-    color: var(--color-base-blue2);
+    color: var(--color-black-dark);
 }
   
 p { /* texto do Main*/
@@ -200,9 +200,9 @@ p { /* texto do Main*/
     
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 
-    color: var(--color-base-white);
+    color: var(--color-base-gray-300);
        
     gap: 1.6rem;   
 }
@@ -212,12 +212,10 @@ h1 {/*Títulos do Main*/
     
     padding-bottom: 1.8rem;
 
-    color: var(--color-base-white);
-    
     text-align: start;
     font-size: 2.4rem;
     font-weight: 600;
-    font-style: italic;
+    
     
     gap: 2rem;
 
@@ -227,21 +225,15 @@ h2 {/*Artigos relacionados*/
     margin: 5rem 0 0rem;
     margin-bottom: 4rem;  
     
-    color: var(--color-base-white);
-    
     font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h3 {/* Títulos dos Artigos relacionados*/
     margin-left: 2rem;
 
-    color: var(--color-base-white);
-
     font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;      
+    font-weight: 600;      
 }
 
 img { /*imagens dos artigos relacionados*/
